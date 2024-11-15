@@ -18,7 +18,7 @@ const Companies = () => {
 
 
 const InfiniteRounded = () => {
-    const rnd = "h-[36px] w-[36px] bg-gray-300 rounded-full px-2 ring-2 ring-gray-600";
+    const rnd = "h-[36px] w-[36px] bg-gray-600 rounded-full px-2 ring-2 ring-gray-200";
     let arraycount = 5;
     return (
       <div className="relative flex justify-center items-center">
@@ -29,7 +29,7 @@ const InfiniteRounded = () => {
             style={{ marginLeft: index === 0 ? 0 : "-12px" }} // Stack elements with overlap
           ></div>
         ))}
-        <div className={`text-3xl flex justify-center items-center bg-gray-400 ${rnd}`} style={{ marginLeft: "-12px" }}>
+        <div className={`text-3xl flex justify-center items-center bg-gray-800 ${rnd}`} style={{ marginLeft: "-12px" }}>
           +
         </div>
       </div>
@@ -38,7 +38,7 @@ const InfiniteRounded = () => {
   
   const Rounded = ({ children }) => {
     return (
-      <div className="w-fit inline-flex justify-center items-center bg-white px-6 py-3 h-16 rounded-full space-x-4 drop-shadow-2xl ring-1">
+      <div className="w-fit inline-flex justify-center items-center bg-white px-6 py-3 h-16 rounded-full space-x-4 drop-shadow-2xl">
         {children}
       </div>
     );

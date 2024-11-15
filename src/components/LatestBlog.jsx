@@ -20,7 +20,7 @@ const LatestBlog = () => {
       <div className="max-w-7xl py-10 text-white text-center ">
         <p className="pt-6 pb-2">WHAT’S TRENDING</p>
         <h1 className="text-3xl pb-6 font-semibold tracking-wide">Latest Blogs & Posts</h1>
-      <div className="flex flex-wrap gap-5">
+      <div className="flex flex-wrap justify-center items-center gap-y-10 gap-5">
         <Post main={"Top 10 Home Buying Mistakes to Avoid"} sub={"Etiam eget elementum elit. Aenean dignissim dapibus vestibulum"}/>
         <Post main={"Top 10 Home Buying Mistakes to Avoid"} sub={"Etiam eget elementum elit. Aenean dignissim dapibus vestibulum"}/>
         <Post main={"Top 10 Home Buying Mistakes to Avoid"} sub={"Etiam eget elementum elit. Aenean dignissim dapibus vestibulum"}/>

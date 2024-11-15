@@ -11,10 +11,10 @@ const Card = ({main, sub}) => {
 const Team = () => {
   return (
     <div className="w-full flex justify-center">
-      <div className="max-w-7xl flex flex-col justify-center items-center gap-2 sm:py-10">
+      <div className="max-w-7xl flex flex-col justify-center items-center gap-2 py-10">
       <p className="text-secondary text-sm tracking-wide ">Introduce yourself to  </p>
       <h1 className="text-neutral-900 text-xl font-semibold tracking-wide">Our Team of Experts</h1>
-      <div className="flex flex-wrap justify-center gap-10 py-5 md:py-10">
+      <div className="flex flex-wrap justify-center gap-5 md:gap-12 py-5 md:py-10">
         <Card main={"Brendon M"} sub={"CEO & Founder"}/>
         <Card main={"Jodi J. Appleby"} sub={"Real Estate Developer"}/>
         <Card main={"Justin S. Meza"} sub={"Listing Agent"}/>

@@ -10,19 +10,19 @@ const Hero = () => {
       <div className="space-y-4 my-auto">
         <div className="space-y-2 ">
           <p className="text-primary text-xs pl-1">REAL ESTATE</p>
-          <h1 className="text-5xl font-bold max-w-md tracking-wide">
+          <h1 className="text-3xl sm:text-5xl font-bold max-w-md tracking-wide">
             Find a perfect home you love..!
           </h1>
         </div>
         <p className="text-gray-500 font-normal text-xs max-w-lg">
           Etiam eget elementum elit. Aenean dignissim dapibus vestibulum. Integer a dolor eu sapien sodales vulputate ac in purus.
         </p>
-        <div className="relative rounded-xl overflow-hidden bg-black/40 w-full sm:w-80 md:w-96 lg:w-[540px] h-40 sm:h-52 md:h-64 lg:h-[340px]">
-          
+        <div className="relative rounded-xl overflow-hidden  w-full sm:w-80 md:w-96 lg:w-[540px] h-40 sm:h-52 md:h-64 lg:h-[340px]">
+          <img src="/heroimg.png" alt="property image"  className="w-full h-full" />
         </div>
       </div>
 
-      <div className="h-fit relative bg-white rounded-xl  px-5">
+      <div className="h-fit relative bg-white/80 sm:bg-white rounded-xl  px-5">
         <div className="border-b-2 border-gray-400 px-4 flex justify-around">
           <p className={`py-3 px-4 border-b-4 text-sm ${isActive1 && " border-primary "}`}>
             For Sale
